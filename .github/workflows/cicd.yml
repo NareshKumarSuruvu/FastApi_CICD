@@ -30,7 +30,7 @@ jobs:
           
           # Create app directory
           mkdir -p /home/ubuntu/fastapi_app
-          cd /home/ubuntu/fastapi_ app
+          cd /home/ubuntu/fastapi_app
           
           # Install Python and pip if not present
           if ! command -v pip3 &> /dev/null; then
