@@ -47,3 +47,7 @@ def delete_user(user_id: int):
 @app.get("/users")
 def list_users():
     return users_db
+
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to the User Management API"}
